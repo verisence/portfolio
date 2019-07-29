@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+
 .title {
     margin-top: 20%;
     margin-bottom: 30%;
@@ -8,6 +11,23 @@
     height: 120%;
 }
 
-.about {
-    margin-top: 20%;
+.margin {
+    margin-bottom: 100px;
+}
+
+.card-title {
+    color: teal !important;
+}
+
+.card-action a {
+    color: teal !important;
+}
+
+.card .card-content {
+    min-height: 350px !important;
+}
+
+.rollovericons a{
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
 }
